@@ -1,0 +1,2 @@
+model,setting,params,cv_pr_auc,worst_fold,pr_auc_2021,pr_auc_2022,pr_auc_2023,pr_auc_2024
+symptom_only,1,NamedTuple(),0.073,0.061,0.076,0.076,0.061,0.078

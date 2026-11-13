@@ -1,0 +1,17 @@
+model,setting,params,cv_pr_auc,worst_fold,pr_auc_2021,pr_auc_2022,pr_auc_2023,pr_auc_2024
+decision_tree,4,"(max_depth = 5, min_samples_leaf = 20)",0.108,0.052,0.105,0.052,0.102,0.175
+decision_tree,3,"(max_depth = 4, min_samples_leaf = 20)",0.103,0.05,0.102,0.05,0.092,0.169
+decision_tree,2,"(max_depth = 3, min_samples_leaf = 20)",0.097,0.066,0.071,0.066,0.09,0.162
+decision_tree,12,"(max_depth = 5, min_samples_leaf = 100)",0.088,0.07,0.07,0.101,0.086,0.095
+decision_tree,11,"(max_depth = 4, min_samples_leaf = 100)",0.085,0.057,0.057,0.107,0.084,0.094
+decision_tree,16,"(max_depth = 5, min_samples_leaf = 200)",0.085,0.072,0.072,0.106,0.075,0.089
+decision_tree,1,"(max_depth = 2, min_samples_leaf = 20)",0.084,0.037,0.037,0.07,0.077,0.154
+decision_tree,7,"(max_depth = 4, min_samples_leaf = 50)",0.084,0.076,0.076,0.09,0.086,0.084
+decision_tree,6,"(max_depth = 3, min_samples_leaf = 50)",0.083,0.071,0.071,0.1,0.08,0.08
+decision_tree,8,"(max_depth = 5, min_samples_leaf = 50)",0.082,0.074,0.079,0.09,0.074,0.083
+decision_tree,15,"(max_depth = 4, min_samples_leaf = 200)",0.08,0.057,0.057,0.102,0.075,0.086
+decision_tree,10,"(max_depth = 3, min_samples_leaf = 100)",0.076,0.04,0.04,0.104,0.08,0.08
+decision_tree,14,"(max_depth = 3, min_samples_leaf = 200)",0.074,0.04,0.04,0.101,0.073,0.08
+decision_tree,5,"(max_depth = 2, min_samples_leaf = 50)",0.071,0.037,0.037,0.099,0.07,0.077
+decision_tree,9,"(max_depth = 2, min_samples_leaf = 100)",0.071,0.037,0.037,0.099,0.07,0.077
+decision_tree,13,"(max_depth = 2, min_samples_leaf = 200)",0.071,0.037,0.037,0.099,0.07,0.077

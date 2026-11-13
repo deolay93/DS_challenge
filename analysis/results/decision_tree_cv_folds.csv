@@ -1,0 +1,5 @@
+model,setting,params,valid_year,train_years,n_train,n,majors,prevalence,pr_auc,recall_top1,precision_top1,recall_top5,precision_top5,recall_top10,precision_top10,lift_top1,alerts_per_month_top1,delay_captured_top1,severe_recall_top1,lift_top5,alerts_per_month_top5,delay_captured_top5,severe_recall_top5
+decision_tree,4,"(max_depth = 5, min_samples_leaf = 20)",2021,2019–2020,8789,3565,113,0.032,0.105,0.088,0.278,0.097,0.061,0.15,0.048,8.764,3.0,0.086,0.107,1.939,14.917,0.105,0.12
+decision_tree,4,"(max_depth = 5, min_samples_leaf = 20)",2022,2019–2021,12354,4206,111,0.026,0.052,0.027,0.07,0.081,0.043,0.333,0.088,2.644,3.583,0.026,0.026,1.616,17.583,0.101,0.064
+decision_tree,4,"(max_depth = 5, min_samples_leaf = 20)",2023,2019–2022,16560,4496,117,0.026,0.102,0.128,0.333,0.214,0.111,0.256,0.067,12.809,3.75,0.102,0.155,4.27,18.75,0.191,0.268
+decision_tree,4,"(max_depth = 5, min_samples_leaf = 20)",2024,2019–2023,21056,5064,157,0.031,0.175,0.146,0.451,0.236,0.146,0.28,0.087,14.546,4.25,0.09,0.147,4.699,21.167,0.15,0.265

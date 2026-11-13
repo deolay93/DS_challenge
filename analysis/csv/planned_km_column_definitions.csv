@@ -1,0 +1,12 @@
+column,in_raw_file,in_dictionary,type,definition_fr,definition_en,values
+Ligne,yes,yes,Liste de valeur,Nom de la ligne,Line name,
+Période Exploitation,yes,yes,Liste de valeur,Période de l'année couverte aussi appelée période de liste,"Period of the year covered, also called the list period",
+Type de Jour,yes,yes,Liste de valeur,Codification du type de jour de semaine,Day-type code,
+Tournée,yes,yes,Liste de valeur,Numéro de tournée du train auquel est associé le kilométrage,Run number of the train the kilometres are attributed to,001; 050; 060; 066; 999
+Année civile,yes,yes,Date et/ou heure,Année de référence,Reference year,
+Année civile/mois,yes,yes,Date et/ou heure,Année/mois de référence,Reference year/month,
+Année civile/semaine,yes,yes,Date et/ou heure,Année/semaine de référence,Reference year/week,
+Jour calendaire,yes,yes,Date et/ou heure,Jour calendrier de référence,Reference calendar date,
+Jour de la semaine,yes,yes,Liste de valeur,Nom du jour de la semaine,Name of the day of the week,Lundi; Mardi; Mercredi; Jeudi; Vendredi; Samedi; Dimanche
+Mois calendrier,yes,yes,Liste de valeur,Numéro du mois de référence,Reference month number,01 to 12
+KM planifié,yes,yes,Numérique,Kilométrage planifié suite aux ajustements du budget de l'année de référence,Planned kilometres after the budget adjustments for the reference year,

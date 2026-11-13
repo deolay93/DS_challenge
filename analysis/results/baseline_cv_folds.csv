@@ -1,0 +1,5 @@
+model,setting,params,valid_year,train_years,n_train,n,majors,prevalence,pr_auc,recall_top1,precision_top1,recall_top5,precision_top5,recall_top10,precision_top10,lift_top1,alerts_per_month_top1,delay_captured_top1,severe_recall_top1,lift_top5,alerts_per_month_top5,delay_captured_top5,severe_recall_top5
+symptom_only,1,NamedTuple(),2021,2019–2020,8789,3565,113,0.032,0.076,0.062,0.194,0.239,0.151,0.301,0.095,6.134,3.0,0.065,0.08,4.759,14.917,0.234,0.267
+symptom_only,1,NamedTuple(),2022,2019–2021,12354,4206,111,0.026,0.076,0.045,0.116,0.279,0.147,0.36,0.095,4.406,3.583,0.029,0.026,5.567,17.583,0.259,0.321
+symptom_only,1,NamedTuple(),2023,2019–2022,16560,4496,117,0.026,0.061,0.06,0.156,0.222,0.116,0.265,0.069,5.978,3.75,0.05,0.056,4.44,18.75,0.201,0.268
+symptom_only,1,NamedTuple(),2024,2019–2023,21056,5064,157,0.031,0.078,0.083,0.255,0.223,0.138,0.293,0.091,8.222,4.25,0.054,0.088,4.445,21.167,0.138,0.235

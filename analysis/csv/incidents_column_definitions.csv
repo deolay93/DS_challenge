@@ -1,0 +1,28 @@
+column,in_raw_file,in_dictionary,type,definition_fr,definition_en,values
+Numero d'incident,yes,yes,Numérique,Numéro unique qui identifie chaque incident,Unique number identifying each incident,
+Type d'incident,yes,yes,Liste de valeur,Identification du type d'incident,Incident type,T: Train; S: Station
+Cause primaire,yes,yes,Liste de valeur,Cause primaire déterminée suite à l'analyse de l'incident,"Primary cause, determined after analysis of the incident",Clientèle; Matériel roulant; Équipements fixes; Exploitation trains; Autres
+Cause secondaire,yes,yes,Liste de valeur,Cause secondaire déterminée suite à l'analyse de l'incident,"Secondary cause, determined after analysis of the incident","Blessée ou malade; Méfait volontaire; Nuisance involontaire; Clientèle; MPM-10; MR-73; Véhicule de travaux; Service de la voie; Service aux trains; Service aux stations; Service TCPE; Équipements fixes; Ligne 1,2,4,5; Centre de contrôle; Exploitation trains; Causes externes; Contrats Réno-Stations; Contrats Réno-Système; Contrats MPM10; Pers. / Équipement STM; Pers. / Équipement Externe; Autres"
+Symptome,yes,yes,Liste de valeur,Cause initiale attribuée au moment de l'incident,Initial cause assigned at the moment of the incident,"Clientèle; Matériel roulant; Équipements fixes; Exploitation trains; Feu, fumée, odeur, produit, etc…"
+Ligne,yes,yes,Liste de valeur,Nom de la ligne sur laquelle a eu lieu l'incident,Name of the line on which the incident occurred,1: Ligne verte (green); 2: Ligne orange; 4: Ligne jaune (yellow); 5: Ligne bleue (blue)
+Numéro de tournée,yes,yes,Numérique,"Numéro de tournée du train associé à l'incident, # indique qu'il n'y a pas de tournée associée",Run number of the train involved in the incident; # means no associated run,
+Heure de l'incident,yes,yes,Date et/ou heure,Pour les incidents trains : heure de début du délai (service clientèle) pour l'incident (et non l'heure de début de l'incident). Pour les incidents station : heure de début de l'incident.,Train incidents: start time of the customer-service delay (not the start of the incident itself). Station incidents: start time of the incident.,
+Heure de reprise,yes,yes,Date et/ou heure,Pour les incidents trains : heure de fin du délai (service clientèle) pour l'incident (et non l'heure de fin de l'incident). Pour les incidents station : heure de fin de l'incident.,Train incidents: end time of the customer-service delay (not the end of the incident itself). Station incidents: end time of the incident.,
+Incident en minutes,yes,no,,,Not defined in the data dictionary,
+Véhicule,yes,yes,Numérique,Numéro de la voiture du train impliqué dans l'incident ou # advenant qu'il n'y a pas de voiture impliquée,Number of the train car involved in the incident; # if no car is involved,
+Porte de voiture,yes,yes,Texte variable,Numéro de la ou des portes impliquées dans l'incident (1 à 8 et toutes) ou # advenant qu'il n'y a pas de porte en cause,"Number of the door(s) involved in the incident (1 to 8, or all); # if no door is involved",1 to 8; toutes (all); #
+Type de matériel,yes,yes,Liste de valeur,Type de matériel roulant (MR-73 ou MPM-10),Rolling-stock type (MR-73 or MPM-10),73; 10
+Code de lieu,yes,yes,Texte variable,Lieu de l'incident,Location of the incident,
+Dommage matériel,yes,yes,Booléen,Indicateur de possibilité de dommage au train,Indicator of possible damage to the train,1: oui (yes); 0: non (no)
+KFS,yes,yes,Booléen,Indicateur de l'utilisation du frein d'urgence par la clientèle,Indicator that a customer used the emergency brake,1: oui (yes); 0: non (no)
+Porte,yes,yes,Booléen,Indicateur de l'implication d'une porte dans l'incident,Indicator that a door was involved in the incident,1: oui (yes); 0: non (no)
+Urgence métro,yes,yes,Booléen,Indicateur de l'implication de l'équipe urgence métro à la demande de la salle de contrôle,"Indicator that the Urgence Métro emergency team was involved, at the control room's request",1: oui (yes); 0: non (no)
+CAT,yes,yes,Booléen,Indicateur de coupure d'alimentation de traction,Indicator of a traction power cut,1: oui (yes); 0: non (no)
+Évacuation,yes,yes,Texte variable,"Indicateur de l'évacuation d'une voiture, d'un train, d'une station ou d'une station et d'un train, # indique qu'il n'y a pas d'évacuation pour cet incident","Evacuation of a car, a train, a station, or a station and a train; # means no evacuation for this incident",
+Année civile,yes,yes,Date et/ou heure,Année de l'incident,Year of the incident,
+Année civile/mois,yes,yes,Date et/ou heure,Année/mois de l'incident,Year/month of the incident,
+Mois calendrier,yes,yes,Date et/ou heure,Mois calendrier de l'incident,Calendar month of the incident,
+Jour du mois,yes,yes,Date et/ou heure,Jour du mois de l'incident,Day of the month of the incident,
+Jour de la semaine,yes,yes,Date et/ou heure,Jour de la semaine de l'incident,Day of the week of the incident,
+Jour calendaire,yes,yes,Date et/ou heure,Jour calendaire de l'incident,Calendar date of the incident,
+Date du jour (Alpha),no,yes,Date et/ou heure,Jour civil de l'incident,Civil date of the incident,

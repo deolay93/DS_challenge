@@ -1,0 +1,2 @@
+model,n,majors,prevalence,pr_auc,recall_top1,precision_top1,recall_top5,precision_top5,recall_top10,precision_top10,lift_top1,alerts_per_month_top1,delay_captured_top1,severe_recall_top1,lift_top5,alerts_per_month_top5,delay_captured_top5,severe_recall_top5
+xgboost,3046,93,0.031,0.248,0.204,0.613,0.28,0.17,0.387,0.118,20.074,3.444,0.181,0.222,5.566,17.0,0.257,0.315

@@ -1,0 +1,10 @@
+type_dincident,incident_en_minutes,n,share_in_band,median_minutes
+S,02 min et moins,16394,0.045,41.0
+T,02 min et moins,16450,0.989,0.0
+T,03 à 04 min,6304,0.975,3.0
+T,05 à 09 min,4377,0.953,6.0
+T,10 à 14 min,933,0.935,11.0
+T,15 à 19 min,299,0.946,17.0
+T,20 à 24 min,173,0.925,22.0
+T,25 à 29 min,107,0.935,27.0
+T,30 min et plus,524,0.998,49.0

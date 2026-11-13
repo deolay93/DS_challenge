@@ -1,0 +1,6 @@
+evacuation,n,major,major_rate
+#,27795,263,0.0095
+Station,55,12,0.2182
+Train,968,264,0.2727
+Train et Station,293,264,0.901
+Voiture,55,1,0.0182
