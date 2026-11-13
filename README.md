@@ -78,8 +78,6 @@ For each candidate, the share of major incidents per value was checked before de
 
 ![Share of major incidents by symptom](analysis/plots/major_rate_by_symptom.png)
 
-**No feature selection** Every candidate known at declaration is given to the models, including the calendar features whose signal is weak. The tree models can ignore inputs that don't help.
-
 **Excluded**
 
 | Columns | Why |
